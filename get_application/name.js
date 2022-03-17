@@ -1,1 +1,1 @@
-name="iTerm2, sleep";
+name="iTerm2, -bash";

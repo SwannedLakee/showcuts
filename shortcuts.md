@@ -175,8 +175,6 @@ z :	Undo last action
 # Google Docs 
 Ctrl-Alt-f is file menu
 Option-/ is help, which you can search
-Switching sheets - alt and down or up arrow  
-Ctrol-Space is select column
 
 # qbo
 (quickbooks online)
@@ -198,6 +196,7 @@ Cmd-shift and A is mute
 ![whatsapp shortcuts](images/whatsapp.png)
 
 # vim 
+* execute 'resize' line('$') "resizes to height of file. 
 * :q is the command line history
 * :argadd ands files to the argument list for :argdo 
 * :Vex for File browser https://shapeshed.com/vim-netrw/ 
@@ -210,6 +209,8 @@ Cmd-shift and A is mute
   * A - widen the window to see paths
 
 # sheets 
+Switching sheets - alt and down or up arrow  
+Ctrol-Space is select column
  * File menu 	Ctrl + Option + f
  * Edit menu 	Ctrl + Option + e
  * View menu 	Ctrl + Option + v
@@ -420,6 +421,24 @@ Go to Assigned to Me Smart List Command-5
 
 Enter or exit full screen Control-Command-F
 
+
+# Github 
+(site wide) 
+![github shortcuts](images/github.png)
+
+# public tasks
+(site wide) 
+![github shortcuts](images/github.png)
+
+![github shortcuts](images/board.png)
+
+# stack exchange 
+
+![SE  shortcuts](images/stackexchange.png)
+
+# dropbox 
+(site wide) 
+![dropbox shortcuts](images/dropbox.png)
 
 
 # Todo 
