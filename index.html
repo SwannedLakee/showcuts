@@ -1,16 +1,28 @@
 <html>
-<head>
-<script src="shortcuts.md"></script> 
-<script type="text/javascript" src="drawdown.js"></script>
+  <head>
+    <script src="shortcuts.md"></script> 
+    <script type="text/javascript" src="drawdown.js"></script>
+    <script type="text/javascript" src="get_application/name.js"></script>
+    <meta http-equiv="refresh" content="2">
+    <title>Showcuts</title>
+  </head>
+  <body>
+  <h1> Showcuts</h1>
 
-<title>Showcuts</title>
-<body>
+  <script>
+    sections=short.split("#")
+    searchable=name.toLowerCase()
+    document.write("Current Application is:"+markdown(searchable));
+    for (const section of sections){
+      header=section.split("\n",1)[0].toLowerCase().trim();
+      if (header.length>1){
+        if (searchable.toLowerCase().includes(header)){
+          document.write(markdown("#"+section));
+        }
+      }
+    }
 
-<script>
-document.write(markdown(short));
+  </script>
 
-</script>
-
-</body>
-
+  </body>
 </html>
