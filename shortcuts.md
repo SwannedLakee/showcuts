@@ -196,6 +196,7 @@ Cmd-shift and A is mute
 ![whatsapp shortcuts](images/whatsapp.png)
 
 # vim 
+* /.{-}, means "shortest match of any characters until a ','" where as /.*, means "greedyly match until the last comma" 
 * execute 'resize' line('$') "resizes to height of file. 
 * :q is the command line history
 * :argadd ands files to the argument list for :argdo 

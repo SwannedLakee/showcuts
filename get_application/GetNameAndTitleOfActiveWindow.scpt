@@ -1,3 +1,4 @@
+sleep 1
 # taken from user Albert's answer on StackOverflow
 # http://stackoverflow.com/questions/5292204/macosx-get-foremost-window-title
 # tested on Mac OS X 10.7.5
