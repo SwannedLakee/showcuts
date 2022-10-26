@@ -41,12 +41,15 @@ Navigation
 * '=' searches wolfram alpha
 * '^' searches history
 * @amazon @wikipedia do the obvious 
+* alt-cmd-i - browser console 
 
 
 # Mouseless firefox extension 
 * Copy url is Ctrl-Enter
 * Open new tab is shift enter 
 
+# iterm
+git reflog --date=local master  (from https://stackoverflow.com/a/12704702/170243) gives you the list of big actions taken on the repo
 
 # Google Drive
 * Upload file -shift-u
@@ -195,6 +198,10 @@ Cmd-shift and A is mute
 
 ![whatsapp shortcuts](images/whatsapp.png)
 
+
+# Preview 
+* Cmd-9 - zoom to fit 
+
 # vim 
 * /.{-}, means "shortest match of any characters until a ','" where as /.*, means "greedyly match until the last comma" 
 * execute 'resize' line('$') "resizes to height of file. 
@@ -208,6 +215,7 @@ Cmd-shift and A is mute
 * buffergator
   * d/D close the buffer 
   * A - widen the window to see paths
+* :Git on its own opens an updating status window 
 
 # sheets 
 Switching sheets - alt and down or up arrow  
