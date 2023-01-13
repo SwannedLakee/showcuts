@@ -449,6 +449,9 @@ Enter or exit full screen Control-Command-F
 (site wide) 
 ![dropbox shortcuts](images/dropbox.png)
 
+# Maps 
+(site wide) 
+![Google maps](images/googlemaps.png)
 
 # Todo 
 * Save an image in a browser 
