@@ -57,6 +57,9 @@ git reflog --date=local master  (from https://stackoverflow.com/a/12704702/17024
 * Naivation view gn 
 * items view: gl 
 
+#  Google slides 
+Search menu - ctrol and backtick 
+
 # Gmail 
 ';' expands the whole conversation
 
