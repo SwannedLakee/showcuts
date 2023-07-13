@@ -1,1 +1,1 @@
-name="iTerm2, sleep — 114✕38";
+name="joe@joe-Amd-Am4-Home-Office: ~/git/showcuts";

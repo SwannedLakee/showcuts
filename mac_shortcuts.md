@@ -1,8 +1,38 @@
 short=`
 
+# Finder
+Ctrl -F8 on big keyboard goes to system tray (and you can use the rectangle icon to see the window management ones 
 
+
+
+
+# Tweetdeck 
+Actions
+    R Reply
+    T Retweet
+    F Like 
+    N New Tweet
+    D Direct Message
+    P View user profile
+    Return View Tweet details 
+    Backspace Close Tweet details 
+    Cmd ⌘ + Return Send Tweet 
+    A Add column
+
+Navigation
+    ? This menu
+    → Right
+    ← Left
+    ↓ Down
+    ↑ Up
+    1 … 9 Column 1－9
+    0 Final column
+    X Expand/Collapse navigation
+    S Search
 
 # Twitter 
+
+
 ![twitter shortcuts](images/twitter.png)
 
 
@@ -11,15 +41,12 @@ short=`
 * '=' searches wolfram alpha
 * '^' searches history
 * @amazon @wikipedia do the obvious 
-* ctrl-shirt-i - browser console 
-* ctrl-shirt-j - other browser console 
-* Mouseless firefox extension 
-  * Copy url is Ctrl-Enter
-  * Open new tab is shift enter 
-* Containers 
-  * Ctrl-shift-1 equality container 
-  * Ctrl-shift-2 personal container 
-  * Ctrl-shift-3  container 
+* alt-cmd-i - browser console 
+
+
+# Mouseless firefox extension 
+* Copy url is Ctrl-Enter
+* Open new tab is shift enter 
 
 # iterm
 git reflog --date=local master  (from https://stackoverflow.com/a/12704702/170243) gives you the list of big actions taken on the repo
@@ -169,7 +196,6 @@ The urls are actually quite well-formed
 # Zoom
 Cmd-shift and A is mute
 *  The shortcut keys for zoom https://support.zoom.us/hc/en-us/articles/205683899-hot-keys-and-keyboard-for-zoom 
-![zoom shortcuts](images/zoom.png)
 
 # whatsapp 
 
@@ -193,11 +219,6 @@ Cmd-shift and A is mute
   * d/D close the buffer 
   * A - widen the window to see paths
 * :Git on its own opens an updating status window 
-
-# joe-amd
-* Ctrl-z then bg to add a late '&'
-![terminal shortcuts](images/terminal.png)
-
 
 # sheets 
 Switching sheets - alt and down or up arrow  
@@ -445,12 +466,6 @@ Enter or exit full screen Control-Command-F
 * Put the mouse sniper actions in here. 
 * Follow a bunch of keyboard shortcut twitter people. 
 
-
-# Spotify 
-![spotify shortcuts](images/spotify.png)
-
-# i3 
-![i3 shortcuts](images/i3.png)
 
 `
 
