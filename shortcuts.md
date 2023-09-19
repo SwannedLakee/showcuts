@@ -43,54 +43,6 @@ Esc :	Focus latest chat or compose
 Ctrl + . :	Advance to next chat or compose
 Ctrl + , :	Advance to previous chat or compose
 	
-⌘ + Enter :	Send
-	
-⌘ + Shift + c :	Add Cc recipients
-⌘ + Shift + b :	Add Bcc recipients
-⌘ + Shift + f :	Access custom from
-⌘ + Shift + d :	Discard draft
-	
-⌘ + k :	Insert a link
-	
-⌘ + ; :	Go to previous misspelled word
-⌘ + ' :	Go to next misspelled word
-⌘ + Shift + ' :	Open spelling suggestions
-	Google Workspace side panel
-⌘ + ⌥ + . :	Focus on side panel
-⌘ + ⌥ + , :	Focus back to main window
-	
-	Formatting
-	
-⌘ + z :	Undo
-⌘ + y :	Redo
-	
-⌘ + Shift + 5 :	Previous font
-⌘ + Shift + 6 :	Next font
-	
-⌘ + Shift + - :	Decrease text size
-⌘ + Shift + + :	Increase text size
-	
-⌘ + b :	Bold
-⌘ + i :	Italics
-⌘ + u :	Underline
-	
-⌘ + Shift + 7 :	Numbered list
-⌘ + Shift + 8 :	Bulleted list
-⌘ + Shift + 9 :	Quote
-	
-⌘ + [ :	Indent less
-⌘ + ] :	Indent more
-	
-⌘ + Shift + l :	Align left
-⌘ + Shift + e :	Align center
-⌘ + Shift + r :	Align right
-	
-⌘ + Shift + , :	Set right-to-left
-⌘ + Shift + . :	Set left-to-right
-	
-⌘ + Shift + x :	Strikethrough
-	
-⌘ + \ :	Remove formatting
 The following keyboard shortcuts are currently enabled. Disable
 	Jumping
 g then i :	Go to Inbox
@@ -181,7 +133,8 @@ Cmd-shift and A is mute
 
 # vim 
 * /.{-}, means "shortest match of any characters until a ','" where as /.*, means "greedyly match until the last comma" 
-* execute 'resize' line('$') "resizes to height of file. 
+* execute 'resize' line('$') "resizes to height of file.
+  * Actually 'resize 8' will make it 8 lines high which is enought 
 * :q is the command line history
 * :argadd ands files to the argument list for :argdo 
 * :Vex for File browser https://shapeshed.com/vim-netrw/ 
@@ -200,38 +153,23 @@ Cmd-shift and A is mute
 
 
 # sheets 
+* Help menu 	alt-shift-h
+* search help alt-/ 
+* Select column 	Ctrl + Space
+
+
+THESE ARE FOR OSX!
+TODO - make this double column 
 Switching sheets - alt and down or up arrow  
 Ctrol-Space is select column
- * File menu 	Ctrl + Option + f
- * Edit menu 	Ctrl + Option + e
- * View menu 	Ctrl + Option + v
- * Insert menu 	Ctrl + Option + i
- * Format menu 	Ctrl + Option + o
- * Data menu 	Ctrl + Option + d
- * Tools menu 	Ctrl + Option + t
- * Open insert menu 	⌘ + Option + = (with cells selected)
- * Open delete menu 	⌘ + Option + - (with cells selected)
- * Common actions
- * Select column 	Ctrl + Space
  * Select row 	Shift + Space
  * Select all 	⌘ + a
- * ⌘ + Shift + Space
- * Undo 	⌘ + z
- * Redo 	⌘ + y
- * ⌘ + Shift + z
- * Fn + F4
  * Find 	⌘ + f
  * Find and replace 	⌘ + Shift + h
  * Fill range 	⌘ + Enter
  * Fill down 	⌘ + d
  * Fill right 	⌘ + r
- * Save
- * (every change is saved automatically in Drive) 	⌘ + s
  * Open 	⌘ + o
- * Print 	⌘ + p
- * Copy 	⌘ + c
- * Cut 	⌘ + x
- * Paste 	⌘ + v
  * Paste values only 	⌘ + Shift + v
  * Show common keyboard shortcuts 	⌘ + /
  * Insert new sheet 	Shift + Fn + F11
@@ -240,125 +178,6 @@ Ctrol-Space is select column
  * (available in spreadsheets in non-Latin languages) 	⌘ + Shift + k
  * Select input tools 	⌘ + Option + Shift + k
  * Search the menus 	Option + /
-
- * Format cells
- * Bold 	⌘ + b
- * Underline 	⌘ + u
- * Italic 	⌘ + i
- * Strikethrough 	Option + Shift + 5
- * Center align 	⌘ + Shift + e
- * Left align 	⌘ + Shift + l
- * Right align 	⌘ + Shift + r
- * Apply top border 	Option + Shift + 1
- * Apply right border 	Option + Shift + 2
- * Apply bottom border 	Option + Shift + 3
- * Apply left border 	Option + Shift + 4
- * Remove borders 	Option + Shift + 6
- * Apply outer border 	
- * 
- * Option + Shift + 7
- * 
- * ⌘ + Shift + 7
- * Insert link 	⌘ + k
- * Insert time 	⌘ + Shift + ;
- * Insert date 	⌘ + ;
- * Insert date and time 	⌘ + Option + Shift + ;
- * Format as decimal 	Ctrl + Shift + 1
- * Format as time 	Ctrl + Shift + 2
- * Format as date 	Ctrl + Shift + 3
- * Format as currency 	Ctrl + Shift + 4
- * Format as percentage 	Ctrl + Shift + 5
- * Format as exponent 	Ctrl + Shift + 6
- * Clear formatting 	⌘ + \
- * 
- * Navigate spreadsheet
- * Move to beginning of row 	Fn + Left Arrow
- * Move to beginning of sheet 	⌘ + Fn + Left Arrow
- * Move to end of row 	Fn + Right Arrow
- * Move to end of sheet 	⌘ + Fn + Right Arrow
- * Scroll to active cell 	⌘ + Backspace
- * Move to next sheet 	Option + Down Arrow
- * Move to previous sheet 	Option + Up Arrow
- * Display list of sheets 	Option + Shift + k
- * Open hyperlink 	Option + Enter
- * Open Explore 	Option + Shift + x
- * Go to side panel 	⌘ + Option + .
- * ⌘ + Option + ,
- * Move focus out of spreadsheet 	Ctrl + ⌘ + Shift + m
- * Move to quicksum
- * (when a range of cells is selected) 	Option + Shift + q
- * Move focus to popup
- * (for links, bookmarks, and images) 	holding Ctrl + ⌘, press e then p
- * Open drop-down menu on filtered cell 	Ctrl + ⌘ + r
- * Open revision history 	⌘ + Option + Shift + h
- * Close drawing editor 	⌘ + Esc
- * Shift + Esc
- * 
- * Edit notes and comments
- * Insert/edit note 	Shift + F2
- * Insert/edit comment 	⌘ + Option + m
- * Open comment discussion thread 	⌘ + Option + Shift + a
- * Enter current comment 	holding Ctrl + ⌘, press e then c
- * Move to next comment 	holding Ctrl + ⌘, press n then c
- * Move to previous comment 	holding Ctrl + ⌘, press p then c
- * 
- * Use keyboard shortcuts on selected comments
- * Reply to current comment 	R
- * Move to next comment 	J
- * Move to previous comment 	K
- * Resolve current comment 	E
- * Exit current comment 	U
- * 
- * Open a menu
- * Form menu
- * (present when the spreadsheet is connected to a form) 	Ctrl + Option + m
- * Add-ons menu 	Ctrl + Option + n
- * Help menu 	Ctrl + Option + h
- * Accessibility menu
- * (present when screen reader support is enabled) 	Ctrl + Option + a
- * Sheet menu
- * (copy, delete, and other sheet actions) 	Option + Shift + s
- * Context menu 	
- * 
- * ⌘ + Shift + \
- * Shift + F10
- * 
- * Add or change rows and columns
- * Insert rows above 	
- * 
- * ⌘ + Option + = (with rows selected)
- * Ctrl + Option + i, then r
- * Insert rows below 	Ctrl + Option + i, then b
- * Insert columns to the left 	
- * 
- * ⌘ + Option + = (with columns selected)
- * Ctrl + Option + i, then c
- * Insert columns to the right 	Ctrl + Option + i, then o
- * Delete rows 	⌘ + Option + - (with rows selected)
- * Ctrl + Option + e, then d
- * Delete columns 	⌘ + Option + - (with columns selected)
- * Ctrl + Option + e, then e
- * Hide row 	⌘ + Option + 9
- * Unhide row 	⌘ + Shift + 9
- * Hide column 	⌘ + Option + 0
- * Unhide column 	⌘ + Shift + 0
- * Group rows or columns 	Option + Shift + Right Arrow
- * Ungroup rows or columns 	Option + Shift + Left Arrow
- * Expand grouped rows or columns 	Option + Shift + Down Arrow 
- * Collapse grouped rows or columns 	Option + Shift + Up Arrow 
- * 
- * Use formulas
- * Show all formulas 	Ctrl + ~
- * Insert array formula 	⌘ + Shift + Enter
- * Collapse an expanded array formula 	⌘ + e
- * Show/hide formula help
- * (when entering a formula) 	Shift + Fn + F1
- * Full/compact formula help
- * (when entering a formula) 	Fn + F1
- * Absolute/relative references
- * (when entering a formula) 	Fn + F4
- * Toggle formula result previews
- * (when entering a formula) 	F
 
 
 
