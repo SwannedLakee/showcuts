@@ -33,8 +33,9 @@ git reflog --date=local master  (from https://stackoverflow.com/a/12704702/17024
 #  Google slides 
 Search menu - ctrol and backtick 
 
-# Gmail 
+# mail 
 ';' expands the whole conversation
+'\`' switches between inboxes
 
 
 Compose and Chat
