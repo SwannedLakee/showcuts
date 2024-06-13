@@ -1,6 +1,20 @@
 short=`
 
 
+# screen 
+screen -S name session called name 
+screen -d -R name either reattaches to 'name' or creates a new one. 
+screen -list which screens are there.
+^a ^a switch to last used 
+^a A rename 
+^a c new window/tab 
+^a " window list - up and down selects normal vim movements work. 'K' kills a window. 
+^a S - split 
+^a tab - move to next region
+^a : sessionanme - renames the session 
+
+
+
 
 # Twitter 
 ![twitter shortcuts](images/twitter.png)
