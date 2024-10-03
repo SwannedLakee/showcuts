@@ -1,17 +1,18 @@
 short=`
 
+# terminal  
 
-# screen 
-screen -S name session called name 
-screen -d -R name either reattaches to 'name' or creates a new one. 
-screen -list which screens are there.
-^a ^a switch to last used 
-^a A rename 
-^a c new window/tab 
-^a " window list - up and down selects normal vim movements work. 'K' kills a window. 
-^a S - split 
-^a tab - move to next region
-^a : sessionanme - renames the session 
+_Screen_ 
+* screen -S name session called name 
+* screen -d -R name either reattaches to 'name' or creates a new one. 
+* screen -list which screens are there.
+* ^a ^a switch to last used 
+* ^a A rename 
+* ^a c new window/tab 
+* ^a " window list - up and down selects normal vim movements work. 'K' kills a window. 
+* ^a S - split 
+* ^a tab - move to next region
+* ^a : sessionanme - renames the session 
 
 
 
@@ -119,8 +120,10 @@ z :	Undo last action
 
 
 # Google Docs 
-Ctrl-Alt-f is file menu
-Option-/ is help, which you can search
+* Alt(option) '/' searches the menu - best one
+* Ctol '/' - list of keyboard shortcuts
+
+* [Get the full list here](https://support.google.com/docs/answer/179738?hl=en-GB#zippy=%2Cpc-shortcuts)
 
 # qbo
 (quickbooks online)
@@ -286,6 +289,14 @@ Enter or exit full screen Control-Command-F
 # i3 
 ![i3 shortcuts](images/i3.png)
 
-`
+
+# outlook
+
+See the issues here 
+https://www.techrepublic.com/article/microsoft-365-keyboard-shortcuts-for-outlook-on-the-web/
+
+
+` //Don't put anthing after this closing quote
+
 
 
