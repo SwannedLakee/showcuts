@@ -35,6 +35,8 @@ _Screen_
   * Ctrl-shift-1 equality container 
   * Ctrl-shift-2 personal container 
   * Ctrl-shift-3  container 
+(Mac) 
+* Ctrl-tabNext tab
 
 # iterm
 git reflog --date=local master  (from https://stackoverflow.com/a/12704702/170243) gives you the list of big actions taken on the repo
