@@ -5,37 +5,6 @@ Ctrl -F8 on big keyboard goes to system tray (and you can use the rectangle icon
 
 
 
-
-# Tweetdeck 
-Actions
-    R Reply
-    T Retweet
-    F Like 
-    N New Tweet
-    D Direct Message
-    P View user profile
-    Return View Tweet details 
-    Backspace Close Tweet details 
-    Cmd ⌘ + Return Send Tweet 
-    A Add column
-
-Navigation
-    ? This menu
-    → Right
-    ← Left
-    ↓ Down
-    ↑ Up
-    1 … 9 Column 1－9
-    0 Final column
-    X Expand/Collapse navigation
-    S Search
-
-# Twitter 
-
-
-![twitter shortcuts](images/twitter.png)
-
-
 # Firefox 
 * Search shortcuts 
 * '=' searches wolfram alpha
@@ -467,6 +436,33 @@ Enter or exit full screen Control-Command-F
 * Follow a bunch of keyboard shortcut twitter people. 
 
 
-`
 
+# Tweetdeck 
+Actions
+    R Reply
+    T Retweet
+    F Like 
+    N New Tweet
+    D Direct Message
+    P View user profile
+    Return View Tweet details 
+    Backspace Close Tweet details 
+    Cmd ⌘ + Return Send Tweet 
+    A Add column
+
+Navigation
+    ? This menu
+    → Right
+    ← Left
+    ↓ Down
+    ↑ Up
+    1 … 9 Column 1－9
+    0 Final column
+    X Expand/Collapse navigation
+    S Search
+
+# Twitter 
+
+
+![twitter shortcuts](images/twitter.png)
 
