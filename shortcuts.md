@@ -6,14 +6,23 @@ _Screen_
 * screen -S name session called name 
 * screen -d -R name either reattaches to 'name' or creates a new one. 
 * screen -list which screens are there.
+* screen -x (join and review someone else's screen session)  
 * ^a ^a switch to last used 
 * ^a A rename 
 * ^a c new window/tab 
 * ^a " window list - up and down selects normal vim movements work. 'K' kills a window. 
+* ^a ' select window by number
 * ^a S - split 
 * ^a tab - move to next region
 * ^a : sessionanme - renames the session 
+* ^a ? all the commands 
+* ^a a escape and send a ctrl-a normally (begining of a line) 
 
+* Questions about screen
+    * Hardcopy is like a text screenshot - there's also a log 
+    * Where is the buffer we copy into? (we paste with ctrl-a ]
+    * There are registers? How do they work and how do I can the opy to go into the main clipboard 
+    * Registers and clipboards aren't included 
 
 
 
@@ -22,6 +31,7 @@ _Screen_
 
 
 # Firefox 
+* Press "@" in the search bar to see a set of options 
 * Search shortcuts 
 * '=' searches wolfram alpha
 * '^' searches history
@@ -297,8 +307,22 @@ Enter or exit full screen Control-Command-F
 See the issues here 
 https://www.techrepublic.com/article/microsoft-365-keyboard-shortcuts-for-outlook-on-the-web/
 
+# Excel 
+* Filter - cmd-shfit-f 
+* Select row - cmd space 
+* Delete
 
 ` //Don't put anthing after this closing quote
 
 
 
+# Blender 
+G to move something (rather than create a new face and move that) 
+S for scale 
+SX1.2 to scale by 1.2 in the X direction
+You can switch on an edge legnth overlay, which will be very useful for the 3d printing work you are doing
+You should really be doing most of this on the desktop because of how mouse focused it is. 
+ctrl-A 
+For some reason when I exported the SLT file I had to choose a scale of 10. I suspect it's because I choose a scale of 0.01 in the blender. and there are a 1000mm in a meter (blender is in m and stratos is in mm) 
+Okay, what else, I put in the text - it's JUST  create text and 'etrude' it in the right panel 
+For some reason you have to specify sizes in the creation - that can't be right. 
